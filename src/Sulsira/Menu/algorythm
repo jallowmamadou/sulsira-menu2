@@ -1,0 +1,44 @@
+    //we want to pull all the pages and the different domains
+    //    we want to know if the person is logged in
+    // we make the persons details globally accessable
+    // if logged in we want to take the persons security level and take the persons domain
+
+    // if the person have no security level and have no domain, then we check for usergroup
+
+    // if the person have none of them then we logout the user and delete his account
+
+    //    but if the person have only a security level we pull only his dashboard
+
+    // if the person has only domain no security level we put only the pages of security level 8 for him
+// then check if the person have an access key
+    // if yes we pull the access key class to access key stuff
+// we pull in the menu depending on his domain and make it globally accessable array
+// now we filter by security level: that is we create two arrays one for all the pages he can assess and the other controller restrictions
+
+//          security shoudl be compare and we take only his security level and less
+
+// generate a new array cleaned pages he can access
+
+// the special cases
+
+//    we check to see if the user domain menu have system
+
+//    if yes we we call the system method
+
+//    goes to the menu config and all from teh array the systems the user can access
+
+
+// then add them to the clean array as drop downs
+
+// the we call the dropdown creator
+
+
+
+
+// menu ui
+
+//    from the cleaned array we loop through pages and check if they are single or dropdown
+
+//    we call the single page method to create bootstrap list
+
+// we call dropdop dowm method as well
